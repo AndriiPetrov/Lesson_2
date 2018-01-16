@@ -4,10 +4,11 @@ dostavka = 1;
 do {
     if (x == 0) {
         dostavka = 1;
-        break
+        break;
     }
-    dostavka = dostavka * x;
-    x--;
+    // dostavka = dostavka * x;
+    // x--;
+    dostavka *= x--;
 } while (x > 0)
 
 console.log("dostavka vosmoshna " + dostavka);

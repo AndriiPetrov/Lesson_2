@@ -2,7 +2,7 @@ var A = +prompt("Введите первое число");
 var B = +prompt("Введите второе число, больше первого");
 
 var sum = 0;
-var summanechet = 0;
+// var summanechet = 0;
 
 for (A; A < B; A++) {
     sum = sum + A;
